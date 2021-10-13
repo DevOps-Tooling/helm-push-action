@@ -39,7 +39,7 @@ helm version -c
 
 helm inspect chart .
 
-helm package .
+helm package . --version ${CHART_version}
 
 helm dependency update .
 
