@@ -25,6 +25,7 @@ jobs:
         CHARTMUSEUM_URL: 'https://chartmuseum.url'
         CHARTMUSEUM_USER: '${{ secrets.CHARTMUSEUM_USER }}'
         CHARTMUSEUM_PASSWORD: ${{ secrets.CHARTMUSEUM_PASSWORD }}
+        Chart_version: '1.1.0'
 ```
 
 ### Configuration
