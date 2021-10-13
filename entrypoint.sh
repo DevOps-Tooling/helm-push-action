@@ -31,6 +31,11 @@ elif [ "$FORCE" == "1" ] || [ "$FORCE" == "True" ] || [ "$FORCE" == "TRUE" ]; th
   FORCE="-f"
 fi
 
+if [ -z "$CHART_version" ]; then
+  echo "Chart_version is not set. Quitting."
+  exit 1
+fi
+
 
 
 cd ${SOURCE_DIR}/${CHART_FOLDER}
