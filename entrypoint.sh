@@ -44,7 +44,9 @@ helm version -c
 
 helm inspect chart .
 
-helm package . --version 1.2.3
+ECHO THIS IS A MANUAL TEXT TO SEE IF THIS IS EXECUTED. 
+
+helm package . --version $CHART_version
 
 helm dependency update .
 
