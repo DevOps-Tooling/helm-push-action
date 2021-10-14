@@ -44,7 +44,7 @@ helm version -c
 
 helm inspect chart .
 
-ECHO THIS IS A MANUAL TEXT TO SEE IF THIS IS EXECUTED. 
+echo THIS IS A MANUAL TEXT TO SEE IF THIS IS EXECUTED. 
 
 helm package . --version $CHART_version
 
